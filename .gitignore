@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+backend/instance/*.db
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
